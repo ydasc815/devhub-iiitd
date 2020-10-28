@@ -11,13 +11,16 @@ Therefore, keeping these points in mind, we have tried to create a web applicati
 making bookings to giving efficient recommendations for exploration.
 
 ### Home Page
-<img width="100%"  align="right" alt="Github" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Home.svg" />
+<img width="100%"  align="right" alt="Home" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Home.svg" />
 
 ### Explore Section
-<img width="100%"  align="right" alt="Github" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Explore.svg" />
+<img width="100%"  align="right" alt="Explore" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Explore.svg" />
+
+### Explore Search Page
+<img width="100%"  align="right" alt="Explore Search" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Explore.svg" />
 
 ### Flight Planning Portal
-<img width="100%"  align="right" alt="Github" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Flight%20Planner.svg" />
+<img width="100%"  align="right" alt="Flight Planner" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Flight%20Planner.svg" />
 
 ### Authentication Page
-<img width="100%"  align="right" alt="Github" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Login.svg" />
+<img width="100%"  align="right" alt="Auth" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Login.svg" />
