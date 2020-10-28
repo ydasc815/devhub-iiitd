@@ -12,7 +12,7 @@ making bookings to giving efficient recommendations for exploration.
 
 ### Home Page
 <img width="100%"  align="right" alt="Github" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Home.svg" />
-<br>
+
 ### Authentication Page
 <img width="100%"  align="right" alt="Github" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Login.svg" />
 
