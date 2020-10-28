@@ -14,6 +14,7 @@ making bookings to giving efficient recommendations for exploration.
 - HTML
 - CSS
 - Bootstrap
+- Javascript 
 - Adobe Xd 
 
 **Extras:**
