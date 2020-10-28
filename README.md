@@ -17,7 +17,7 @@ making bookings to giving efficient recommendations for exploration.
 <img width="100%"  align="right" alt="Explore" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Explore.svg" />
 
 ### Explore Search Page
-<img width="100%"  align="right" alt="Explore Search" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Explore.svg" />
+<img width="100%"  align="right" alt="Explore Search" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Explore%20Search.svg" />
 
 ### Flight Planning Portal
 <img width="100%"  align="right" alt="Flight Planner" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Flight%20Planner.svg" />
