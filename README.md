@@ -13,8 +13,11 @@ making bookings to giving efficient recommendations for exploration.
 ### Home Page
 <img width="100%"  align="right" alt="Github" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Home.svg" />
 
-### Authentication Page
-<img width="100%"  align="right" alt="Github" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Login.svg" />
+### Explore Section
+<img width="100%"  align="right" alt="Github" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Explore.svg" />
 
 ### Flight Planning Portal
 <img width="100%"  align="right" alt="Github" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Flight%20Planner.svg" />
+
+### Authentication Page
+<img width="100%"  align="right" alt="Github" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Login.svg" />
