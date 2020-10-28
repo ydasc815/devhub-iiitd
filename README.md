@@ -24,3 +24,14 @@ making bookings to giving efficient recommendations for exploration.
 
 ### 📌 Authentication Page
 <img width="100%"  align="right" alt="Auth" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Login.svg" />
+
+**Tech Stack Used:**
+- HTML
+- CSS
+- Bootstrap
+- Adobe Xd 
+
+**Extras:**
+<br> We plan to integrate a Machine Learning model that can automatize the explore page recommendation results (At present we aim at getting these details
+based on external travel APIs only). This model can predict the recommendation results based on given past history of user's travelling (which includes, 
+where he tends to visit the most, which places he likes, dislikes, and many such parameters).
