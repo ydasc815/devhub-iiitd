@@ -10,3 +10,5 @@ area at all. We believe that behind a great User experience, lies many factors i
 Therefore, keeping these points in mind, we have tried to create a web application, that can easily attract users and help them throughout their trip from
 making bookings to giving efficient recommendations for exploration.
 
+<img width="100%" height="600dp" align="right" alt="Github" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Home%20%E2%80%93%201%402x.png" />
+
