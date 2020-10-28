@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book your Flights</title>
+    <link rel="stylesheet" href="Flights.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+    <!-- --------------------NAVBAR ------------------------------>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="176.843" height="44.158" viewBox="0 0 176.843 65.158">
+            <g id="logo" transform="translate(-136.157 -25.811)">
+              <path id="Icon_ionic-md-airplane" data-name="Icon ionic-md-airplane" d="M29.7,28.987V24.961L17.325,14.493V3.14C17.325,1.359,16.181,0,14.85,0s-2.475,1.359-2.475,3.14V14.493L0,24.961v4.026l12.375-4.831V35.59L8.663,38.73v3.14l6.188-1.61,6.188,1.61V38.73l-3.713-3.14V24.156Z" transform="translate(183.385 37.894)" fill="#00acd3"/>
+              <text id="Tr" transform="translate(139.352 69.335)" fill="#00acd3" font-size="40" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Tr</tspan></text>
+              <text id="vel.ld" transform="translate(217 69.335)" fill="#00acd3" font-size="40" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">vel.ld</tspan></text>
+              <path id="Path_2" data-name="Path 2" d="M62.077,0s.431,8.942-9.054,8.942H0" transform="translate(261.026 35.653) rotate(180)" fill="none" stroke="#008bce" stroke-width="1.8"/>
+              <path id="Path_3" data-name="Path 3" d="M191.508,88.711s.431,8.942-9.054,8.942H129.431" transform="translate(6.727 -7.584)" fill="none" stroke="#008bce" stroke-width="1.8"/>
+            </g>
+          </svg>
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <button type="button" class="btn btn-info active-btn mr-5">Flights</button>
+                    <!-- <button class="nav-link active-btn btn-info btn">Flights</button> -->
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link mr-4 navlinks" href="#">Hotels</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mr-4 navlinks" href="#">Explore</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-info login-link ">Login</button>
+                    <!-- <a class="nav-link navlinks login-link" href="#">login</a> -->
+                  </li>
+              </ul>
+            </div>
+    </nav>
+    <!---------------------CONTAINER ------------------------------->
+    <div class="container">
+    <!-----------------------HEADER -------------------------------->
+        <div class="my_header">
+            <div class="card head_card">
+                <div class="card-body">
+                    <!-- selector -->
+                  <div class="selector">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info dropdown-toggle mybtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          One way
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Two way </a>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info dropdown-toggle mybtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          1-Passenger
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">2-Passenger</a>
+                          <a class="dropdown-item" href="#">3-Passenger</a>
+                          <a class="dropdown-item" href="#">4-Passenger</a>
+                          <a class="dropdown-item" href="#">5-Passenger</a>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-info dropdown-toggle mybtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Economy
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Business Economy</a>
+                          <a class="dropdown-item" href="#">First Economy </a>
+                          <a class="dropdown-item" href="#">Premium Economy</a>
+                        </div>
+                    </div>
+                    <br><br>
+                  </div>
+                  <!-- details -->
+                  <div class="row">
+                      <div class="col-lg-3 "><div class="card card-details"><p class="head_carditem">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" class="ml-1">
+                          <g id="location-init" transform="translate(-190 -307)">
+                            <circle id="Ellipse_23" data-name="Ellipse 23" cx="13" cy="13" r="13" transform="translate(190 307)" fill="#346da5"/>
+                            <circle id="Ellipse_24" data-name="Ellipse 24" cx="8" cy="8" r="8" transform="translate(195 312)" fill="#fff"/>
+                          </g>
+                        </svg><span class="ml-3 cities">New Delhi</span>
+                        </p></div></div>
+                      
+                        <svg xmlns="http://www.w3.org/2000/svg" width="58" height="50" viewBox="0 0 98 98" >
+                          <g id="icon-transit" transform="translate(-384 -620)">
+                            <g id="Ellipse_2703" data-name="Ellipse 2703" transform="translate(384 620)" fill="#fff" stroke="#b7b7b7" stroke-width="1">
+                              <circle cx="49" cy="49" r="49" stroke="none"/>
+                              <circle cx="49" cy="49" r="48.5" fill="none"/>
+                            </g>
+                            <path id="Icon_ionic-ios-arrow-round-back" data-name="Icon ionic-ios-arrow-round-back" d="M17.216,11.581a1.169,1.169,0,0,1,.009,1.647l-5.432,5.45h20.7a1.163,1.163,0,0,1,0,2.327h-20.7l5.441,5.45a1.178,1.178,0,0,1-.009,1.647,1.159,1.159,0,0,1-1.638-.009L8.213,20.664h0a1.306,1.306,0,0,1-.242-.367,1.11,1.11,0,0,1-.089-.447,1.166,1.166,0,0,1,.331-.814l7.374-7.428A1.14,1.14,0,0,1,17.216,11.581Z" transform="translate(405.391 640.566)" fill="#a8a8a8"/>
+                            <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" d="M24.305,11.581a1.169,1.169,0,0,0-.009,1.647l5.441,5.45H9.029a1.163,1.163,0,0,0,0,2.327h20.7l-5.441,5.45A1.178,1.178,0,0,0,24.3,28.1a1.159,1.159,0,0,0,1.638-.009l7.374-7.428h0a1.306,1.306,0,0,0,.242-.367,1.11,1.11,0,0,0,.089-.447,1.166,1.166,0,0,0-.331-.814l-7.374-7.428A1.14,1.14,0,0,0,24.305,11.581Z" transform="translate(418.496 655.839)" fill="#a8a8a8"/>
+                          </g>
+                        </svg>
+                       
+                      <div class="col-lg-3 "><div class="card card-details">
+                          <p class="head_carditem"><svg xmlns="http://www.w3.org/2000/svg" width="21.976" height="26" viewBox="0 0 21.976 35.161" class="ml-1">
+                            <path id="Icon_metro-location" data-name="Icon metro-location" d="M19.343,1.928A10.988,10.988,0,0,0,8.355,12.916c0,10.988,10.988,24.173,10.988,24.173S30.33,23.9,30.33,12.916A10.988,10.988,0,0,0,19.343,1.928Zm0,17.718a6.73,6.73,0,1,1,6.73-6.73A6.73,6.73,0,0,1,19.343,19.646Zm-4.258-6.73a4.258,4.258,0,1,1,4.258,4.258A4.258,4.258,0,0,1,15.085,12.916Z" transform="translate(-8.355 -1.928)" fill="#346da5"/>
+                          </svg>
+                          <span class="ml-3 cities">Istanbul</span></p>
+                        </div></div>
+                      <div class="col-lg-1 "></div>
+                      <div class="col-lg-3 "><div class="card card-details"><p class="head_carditem"><svg xmlns="http://www.w3.org/2000/svg" width="30.681" height="26" viewBox="0 0 30.681 35.16" class="ml-1">
+                        <path id="Icon_material-date-range" data-name="Icon material-date-range" d="M14.727,18.822H11.318v3.516h3.409Zm6.818,0H18.136v3.516h3.409Zm6.818,0H24.954v3.516h3.409ZM31.772,6.516h-1.7V3H26.658V6.516H13.022V3H9.613V6.516h-1.7a3.449,3.449,0,0,0-3.392,3.516L4.5,34.644A3.463,3.463,0,0,0,7.909,38.16H31.772a3.474,3.474,0,0,0,3.409-3.516V10.032A3.474,3.474,0,0,0,31.772,6.516Zm0,28.128H7.909V15.306H31.772Z" transform="translate(-4.5 -3)" fill="#346da5"/>
+                      </svg>
+                      <span class="ml-3 cities">Wed, 20 June</span><span class="ml-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10.511" height="18" viewBox="0 0 10.511 18">
+                          <path id="Icon_material-keyboard-arrow-left" data-name="Icon material-keyboard-arrow-left" d="M22.511,24.135l-6.5-6.885,6.5-6.885-2-2.115L12,17.25l8.511,9Z" transform="translate(-12 -8.25)" fill="#346da5"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10.511" height="18" viewBox="0 0 10.511 18">
+                          <path id="Icon_material-keyboard-arrow-right" data-name="Icon material-keyboard-arrow-right" d="M12.885,24.51l6.5-6.885-6.5-6.885,2-2.115,8.511,9-8.511,9Z" transform="translate(-12.885 -8.625)" fill="#346da5"/>
+                        </svg>
+                        
+                        </span></p>
+                        </div></div>
+                      <div class="col-lg-1 "></div>
+                  </div>
+                </div>
+                
+            </div><br>
+            <!-- Flight Source and Destination -->
+            <div class="row">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3"><span class="city">Delhi(DEL)</span><br><span class="subcity">Indira Gandhi International Airport</span>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-2"><svg xmlns="http://www.w3.org/2000/svg" width="58" height="50" viewBox="0 0 98 98" >
+                    <g id="icon-transit" transform="translate(-384 -620)">
+                      <g id="Ellipse_2703" data-name="Ellipse 2703" transform="translate(384 620)" fill="#fff" stroke="#b7b7b7" stroke-width="1">
+                        <circle cx="49" cy="49" r="49" stroke="none"/>
+                        <circle cx="49" cy="49" r="48.5" fill="none"/>
+                      </g>
+                      <path id="Icon_ionic-ios-arrow-round-back" data-name="Icon ionic-ios-arrow-round-back" d="M17.216,11.581a1.169,1.169,0,0,1,.009,1.647l-5.432,5.45h20.7a1.163,1.163,0,0,1,0,2.327h-20.7l5.441,5.45a1.178,1.178,0,0,1-.009,1.647,1.159,1.159,0,0,1-1.638-.009L8.213,20.664h0a1.306,1.306,0,0,1-.242-.367,1.11,1.11,0,0,1-.089-.447,1.166,1.166,0,0,1,.331-.814l7.374-7.428A1.14,1.14,0,0,1,17.216,11.581Z" transform="translate(405.391 640.566)" fill="#a8a8a8"/>
+                      <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" d="M24.305,11.581a1.169,1.169,0,0,0-.009,1.647l5.441,5.45H9.029a1.163,1.163,0,0,0,0,2.327h20.7l-5.441,5.45A1.178,1.178,0,0,0,24.3,28.1a1.159,1.159,0,0,0,1.638-.009l7.374-7.428h0a1.306,1.306,0,0,0,.242-.367,1.11,1.11,0,0,0,.089-.447,1.166,1.166,0,0,0-.331-.814l-7.374-7.428A1.14,1.14,0,0,0,24.305,11.581Z" transform="translate(418.496 655.839)" fill="#a8a8a8"/>
+                    </g>
+                  </svg></div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3"><span class="city">Istanbul (IST)</span ><br><span class="subcity">Ataturk International Airport</span>
+                </div>
+                <div class="col-lg-1"></div>
+            </div>
+        </div><br>
+      
+    <!--------------------- FLIGHT DETAILS  ------------------------->
+        <div class="fight_details">
+            <h5 class="show_flights">Showing 5 of 48 Flights</h5>
+            <br>
+            <div class="card head_card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-2 mini-nav">Airlines</div>
+                        <div class="col-lg-2 mini-nav">Departure</div>
+                        <div class="col-lg-2 mini-nav">Arrival</div>
+                        <div class="col-lg-2 mini-nav">Duration</div>
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-2 mini-nav">Price
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25.243" height="25" viewBox="0 0 25.243 24" class="ml-1 mb-1">
+                              <g id="Icon_feather-arrow-up" data-name="Icon feather-arrow-up" transform="translate(-5.379 -6)">
+                                <path id="Path_715" data-name="Path 715" d="M18,28.5V7.5" fill="none" stroke="#346da5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                                <path id="Path_716" data-name="Path 716" d="M7.5,18,18,7.5,28.5,18" fill="none" stroke="#346da5" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+                              </g>
+                            </svg>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- Lists of Available Flights -->
+            <div class="card flight-card">
+                <div class="card-body">
+                  <div class="row">
+                      <div class="col-lg-2"><img src="./images/indigo.jpeg"><br><a href="#">Indigo</a></div>
+                      <div class="col-lg-2"><p class="big-time">11:15<br><span class="small-time">DEL
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18.243" height="10.501" viewBox="0 0 20.243 13.501">
+                          <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" d="M20.784,11.51a.919.919,0,0,0-.007,1.294l4.275,4.282H8.782a.914.914,0,0,0,0,1.828H25.045L20.77,23.2a.925.925,0,0,0,.007,1.294.91.91,0,0,0,1.287-.007l5.794-5.836h0a1.026,1.026,0,0,0,.19-.288.872.872,0,0,0,.07-.352.916.916,0,0,0-.26-.64l-5.794-5.836A.9.9,0,0,0,20.784,11.51Z" transform="translate(-7.875 -11.252)" fill="#5bbacf"/>
+                        </svg>
+                         IST</span></p></div>
+                      <div class="col-lg-2"><p class="big-time">15:45</p></div>
+                      <div class="col-lg-2"><p class="big-time">7h 0m<br><span class="small-time">non-stop</span> <br> <a href="#" class="small-time">Flight Details</a></p></div>
+                      <div class="col-lg-2"></div>
+                      <div class="col-lg-2"><p class="bigg-time">Rs 15,349 <br><button class="btn btn-primary submit_btn" type="submit">Book Now</button></p></div>                      
+                  </div>
+                </div>
+            </div>
+            <div class="card flight-card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-2"><img src="./images/flight2.jpeg"><br><a href="#">Turkish Airlines</a></div>
+                        <div class="col-lg-2"><p class="big-time">11:15<br><span class="small-time">DEL
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18.243" height="10.501" viewBox="0 0 20.243 13.501">
+                            <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" d="M20.784,11.51a.919.919,0,0,0-.007,1.294l4.275,4.282H8.782a.914.914,0,0,0,0,1.828H25.045L20.77,23.2a.925.925,0,0,0,.007,1.294.91.91,0,0,0,1.287-.007l5.794-5.836h0a1.026,1.026,0,0,0,.19-.288.872.872,0,0,0,.07-.352.916.916,0,0,0-.26-.64l-5.794-5.836A.9.9,0,0,0,20.784,11.51Z" transform="translate(-7.875 -11.252)" fill="#5bbacf"/>
+                          </svg>
+                           IST</span></p></div>
+                        <div class="col-lg-2"><p class="big-time">15:45</p></div>
+                        <div class="col-lg-2"><p class="big-time">7h 0m<br><span class="small-time">non-stop</span> <br> <a href="#" class="small-time">Flight Details</a></p></div>
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-2"><p class="bigg-time">Rs 15,349 <br><button class="btn btn-primary submit_btn" type="submit">Book Now</button></p></div>                      
+                    </div>
+                  </div>
+                
+            </div>
+            <div class="card flight-card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-2"><img src="./images/indigo.jpeg"><br><a href="#">Indigo</a></div>
+                        <div class="col-lg-2"><p class="big-time">11:15<br><span class="small-time">DEL
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18.243" height="10.501" viewBox="0 0 20.243 13.501">
+                            <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" d="M20.784,11.51a.919.919,0,0,0-.007,1.294l4.275,4.282H8.782a.914.914,0,0,0,0,1.828H25.045L20.77,23.2a.925.925,0,0,0,.007,1.294.91.91,0,0,0,1.287-.007l5.794-5.836h0a1.026,1.026,0,0,0,.19-.288.872.872,0,0,0,.07-.352.916.916,0,0,0-.26-.64l-5.794-5.836A.9.9,0,0,0,20.784,11.51Z" transform="translate(-7.875 -11.252)" fill="#5bbacf"/>
+                          </svg>
+                           IST</span></p></div>
+                        <div class="col-lg-2"><p class="big-time">15:45</p></div>
+                        <div class="col-lg-2"><p class="big-time">7h 0m<br><span class="small-time">non-stop</span> <br> <a href="#" class="small-time">Flight Details</a></p></div>
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-2"><p class="bigg-time">Rs 15,349 <br><button class="btn btn-primary submit_btn" type="submit">Book Now</button></p></div>                      
+                    </div>
+                  </div>
+            </div>
+            <div class="card flight-card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-2"><img src="./images/3.jpeg"><br><a href="#">Air Astana</a></div>
+                        <div class="col-lg-2"><p class="big-time">11:15<br><span class="small-time">DEL
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18.243" height="10.501" viewBox="0 0 20.243 13.501">
+                            <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" d="M20.784,11.51a.919.919,0,0,0-.007,1.294l4.275,4.282H8.782a.914.914,0,0,0,0,1.828H25.045L20.77,23.2a.925.925,0,0,0,.007,1.294.91.91,0,0,0,1.287-.007l5.794-5.836h0a1.026,1.026,0,0,0,.19-.288.872.872,0,0,0,.07-.352.916.916,0,0,0-.26-.64l-5.794-5.836A.9.9,0,0,0,20.784,11.51Z" transform="translate(-7.875 -11.252)" fill="#5bbacf"/>
+                          </svg>
+                           IST</span></p></div>
+                        <div class="col-lg-2"><p class="big-time">15:45</p></div>
+                        <div class="col-lg-2"><p class="big-time">7h 0m<br><span class="small-time">non-stop</span> <br> <a href="#" class="small-time">Flight Details</a></p></div>
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-2"><p class="bigg-time">Rs 15,349 <br><button class="btn btn-primary submit_btn" type="submit">Book Now</button></p></div>                      
+                    </div>
+                  </div>
+            </div>
+            <div class="card flight-card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-2"><img src="./images/indigo.jpeg"><br><a href="#">Indigo</a></div>
+                        <div class="col-lg-2"><p class="big-time">11:15<br><span class="small-time">DEL
+                          <svg xmlns="http://www.w3.org/2000/svg" width="18.243" height="10.501" viewBox="0 0 20.243 13.501">
+                            <path id="Icon_ionic-ios-arrow-round-forward" data-name="Icon ionic-ios-arrow-round-forward" d="M20.784,11.51a.919.919,0,0,0-.007,1.294l4.275,4.282H8.782a.914.914,0,0,0,0,1.828H25.045L20.77,23.2a.925.925,0,0,0,.007,1.294.91.91,0,0,0,1.287-.007l5.794-5.836h0a1.026,1.026,0,0,0,.19-.288.872.872,0,0,0,.07-.352.916.916,0,0,0-.26-.64l-5.794-5.836A.9.9,0,0,0,20.784,11.51Z" transform="translate(-7.875 -11.252)" fill="#5bbacf"/>
+                          </svg>
+                           IST</span></p></div>
+                        <div class="col-lg-2"><p class="big-time">15:45</p></div>
+                        <div class="col-lg-2"><p class="big-time">7h 0m<br><span class="small-time">non-stop</span> <br> <a href="#" class="small-time">Flight Details</a></p></div>
+                        <div class="col-lg-2"></div>
+                        <div class="col-lg-2"><p class="bigg-time">Rs 15,349 <br><button class="btn btn-primary submit_btn" type="submit">Book Now</button></p></div>                      
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

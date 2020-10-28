@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background-color: white;
+    box-shadow: 0 3px 5px #efefef;
+
+}
+.my_header{
+    margin-top: 100px;
+}
+.head_card{
+    background-color: white;
+    box-shadow: 0 5px 5px #efefef;
+    border-color: white!important;
+
+}
+.card .card-details{
+  height:50px;
+}
+.head_carditem{
+    margin: auto 0;
+}
+.flight-card{
+    margin-top: 15px;
+    height:150px;
+}
+.active-btn{
+    border-radius: 7px!important;
+    width:100px!important;
+}
+.navlinks{
+    color: #00ACD3!important;
+    font-weight: 600;
+}
+.login-link{
+    border-radius: 40px!important;
+    width:80px!important;
+}
+.btn-info{
+    background-color:#00ACD3!important;
+}
+.mybtn{
+    background-color:transparent!important;
+    color:#346DA5!important;
+    font-weight: 600!important;
+    border:none!important;
+}
+.cities{
+    color:#346DA5!important;
+    font-weight: 500!important;
+}
+.city{
+    color: #00ACD3;
+    font-weight: 600;
+    font-size: 25px;
+}
+.subcity{
+    color: #00ACD3;
+}
+.show_flights{
+    color:#346DA5;
+    font-size: 15px!important;
+    text-decoration: underline!important;
+}
+.mini-nav{
+    color:#346DA5!important;
+    font-weight: 500!important;
+}
+.submit_btn{
+    background-color:#346DA5!important;
+    border-radius: 40px!important;
+    margin-top: 20px;
+    width:140px!important;
+
+}
+.big-time{
+    color: #00ACD3;
+    font-size: 27px;
+}
+.small-time{
+    font-size: 15px!important;
+}
+.bigg-time{
+    color:#346DA5;
+    font-size: 27px;
+    font-weight: 500;
+}
