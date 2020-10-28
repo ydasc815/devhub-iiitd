@@ -10,17 +10,17 @@ area at all. We believe that behind a great User experience, lies many factors i
 Therefore, keeping these points in mind, we have tried to create a web application, that can easily attract users and help them throughout their trip from
 making bookings to giving efficient recommendations for exploration.
 
-### Home Page
+### 📌 Home Page
 <img width="100%"  align="right" alt="Home" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Home.svg" />
 
-### Explore Section
+### 📌 Explore Section
 <img width="100%"  align="right" alt="Explore" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Explore.svg" />
 
-### Explore Search Page
+### 📌 Explore Search Page
 <img width="100%"  align="right" alt="Explore Search" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Explore%20Search.svg" />
 
-### Flight Planning Portal
+### 📌 Flight Planning Portal
 <img width="100%"  align="right" alt="Flight Planner" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Flight%20Planner.svg" />
 
-### Authentication Page
+### 📌 Authentication Page
 <img width="100%"  align="right" alt="Auth" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Login.svg" />
