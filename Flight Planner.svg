@@ -311,8 +311,6 @@ Cabin Baggage" transform="translate(1511 1784)" fill="#afafaf" font-size="17" fo
     <text id="AUH" transform="translate(798 2347)" fill="#5bbacf" font-size="25" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">AUH</tspan></text>
     <rect id="etihad" width="99" height="60.865" transform="translate(497 2270)" fill="url(#pattern-7)"/>
     <text id="Load_More_flights" data-name="Load More flights" transform="translate(1809 2470)" fill="#346da5" font-size="25" font-family="Roboto-Regular, Roboto"><tspan x="-194.69" y="0">Load More flights</tspan></text>
-    <path id="Path_723" data-name="Path 723" d="M2025,4106.2H3948.305v108H2025Z" transform="translate(-2025 -1276.496)" fill="#bef3ff"/>
-    <text id="Copyrights_reserved_Travel.ld_Ltd._2020_User_Interface_Design_by_Aditya" data-name="Copyrights reserved © Travel.ld Ltd. 2020 | User Interface Design by Aditya" transform="translate(224 2893)" font-size="25" font-family="Roboto-Regular, Roboto" opacity="0.24"><tspan x="0" y="0">Copyrights reserved © Travel.ld Ltd. 2020 | User Interface Design by Aditya</tspan></text>
     <text id="Stops" transform="translate(78 725)" fill="#346da5" font-size="25" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Stops</tspan></text>
     <g id="Rectangle_65" data-name="Rectangle 65" transform="translate(83 760)" fill="#fff" stroke="#a2a2a2" stroke-width="1">
       <rect width="27" height="27" rx="4" stroke="none"/>
