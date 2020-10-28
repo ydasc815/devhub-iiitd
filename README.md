@@ -22,6 +22,8 @@ making bookings to giving efficient recommendations for exploration.
 based on external travel APIs only). This model can predict the recommendation results based on given past history of user's travelling (which includes, 
 where he tends to visit the most, which places he likes, dislikes, and many such parameters).
 
+**Prototype Link:** https://ydasc815.github.io/devhub-iiitd/
+
 ### 📌 Home Page
 <img width="100%"  align="right" alt="Home" src="https://github.com/ydasc815/devhub-iiitd/blob/master/Home.svg" />
 
